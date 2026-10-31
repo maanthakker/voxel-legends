@@ -1,0 +1,13 @@
+{
+  "name": "voxel-realms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Voxel Realms: Minecraft-style voxel game with accounts and online multiplayer (MongoDB, Express, React, Node)",
+  "scripts": {
+    "build": "npm install --prefix server && npm install --prefix client --include=dev && npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client"
+  },
+  "engines": { "node": ">=18" }
+}
